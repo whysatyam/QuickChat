@@ -75,7 +75,7 @@ QuickChat is a full-stack application that allows users to communicate with each
 ![User Profile Page](./overview/profilepage.png)
 ![User Profile Page](./overview/profilepagetwo.png)
 
-### Total 32 Different Themes
+### Supports 32 Different Themes
 ![Theme](./overview/themeOne.png)
 ![Theme](./overview/themeTwo.png)
 ![Theme](./overview/themeThree.png)
