@@ -50,7 +50,7 @@ QuickChat is a full-stack application that allows users to communicate with each
 
 ### Deployment:
 
-- **Frontend**: Deployed on Render.
+- **Frontend**: Deployed on Vercel.
 - **Backend**: Deployed on Render.
 
 ## Visual Overview

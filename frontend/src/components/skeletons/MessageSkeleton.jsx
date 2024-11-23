@@ -1,5 +1,4 @@
-const MessageSkeleton = () => {
-  // Create an array of 6 items for skeleton messages  
+const MessageSkeleton = () => { 
   const skeletonMessages = Array(6).fill(null);
 
   return (
