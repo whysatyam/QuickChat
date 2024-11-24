@@ -92,11 +92,12 @@ export const useAuthStore = create((set, get) => ({
         userId: authUser._id,
       },
       transports:["websocket"],
+      withCredentials: true,
     });
 
     socket.connect();
     set({ socket: socket });
-    
+
     socket.on("getOnlineUsers", (userIds) => {
       set({ onlineUsers: userIds });
     });
