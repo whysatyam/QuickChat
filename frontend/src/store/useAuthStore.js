@@ -5,7 +5,7 @@ import { io } from "socket.io-client";
 
 const BASE_URL =
   import.meta.env.MODE === "development"
-    ? "http://localhost:3000/api"
+    ? "http://localhost:3000"
     : import.meta.env.VITE_BACKEND_URL;
 
 export const useAuthStore = create((set, get) => ({
@@ -91,8 +91,6 @@ export const useAuthStore = create((set, get) => ({
       query: {
         userId: authUser._id,
       },
-      transports:["websocket"],
-      withCredentials: true,
     });
 
     socket.connect();
