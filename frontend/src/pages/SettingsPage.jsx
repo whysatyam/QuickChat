@@ -6,7 +6,7 @@ const PREVIEW_MESSAGES = [
   { id: 1, content: "Hey! How's it going?", isSent: false },
   {
     id: 2,
-    content: "I'm doing great! Just working on some new features.",
+    content: "I'm doing great! Just working on some new features",
     isSent: true,
   },
 ];
@@ -115,7 +115,7 @@ const SettingsPage = () => {
                     <input
                       type="text"
                       className="input input-bordered flex-1 text-sm h-10"
-                      placeholder="Type a message..."
+                      placeholder="Type a message"
                       value="This is a preview"
                       readOnly
                     />

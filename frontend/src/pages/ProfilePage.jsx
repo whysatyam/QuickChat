@@ -64,7 +64,7 @@ const ProfilePage = () => {
             </div>
             <p className="text-sm text-zinc-400">
               {isUpdatingProfile
-                ? "Uploading..."
+                ? "Uploading"
                 : "Click the camera icon to update your photo"}
             </p>
           </div>
