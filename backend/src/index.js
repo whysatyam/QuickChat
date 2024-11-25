@@ -15,7 +15,20 @@ import { connectDB } from "./lib/db.js";
 
 const PORT = process.env.PORT;
 
-app.use(cors());
+const allowedOrigins = process.env.FRONTEND_URLS.split(",");
+app.use(
+  cors({
+    origin: (origin, callback) => {
+      if (!origin || allowedOrigins.includes(origin)) {
+        callback(null, origin);
+      } else {
+        callback(new Error("Not allowed by CORS"));
+      }
+    },
+    credentials: true,
+  })
+);
+
 app.use(express.json());
 app.use(cookieParser());
 
