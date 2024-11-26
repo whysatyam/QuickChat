@@ -22,8 +22,8 @@ QuickChat is a full-stack application that allows users to communicate with each
 - **Tailwind CSS** - For styling and responsive design.
 - **DaisyUI** - For UI components.
 - **Zustand** - For global state management.
-- **react-hot-toast** - For showing toast notifications in the app.
-- **lucide-react** - For providing icons in the app.
+- **React Hot Toast** - For showing toast notifications in the app.
+- **Lucide React** - For providing icons in the app.
 
 ### Backend:
 
